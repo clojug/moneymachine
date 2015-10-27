@@ -28,8 +28,7 @@ public class Rounding{
      * @see javax.money.Monetary
      */
     public MonetaryAmount roundWithDefaultRounding(MonetaryAmount amount){
-        // TODO implement this
-        return null;
+        throw new UnsupportedOperationException();
     }
 
 
@@ -43,8 +42,7 @@ public class Rounding{
      * @see javax.money.RoundingContext
      */
     public MonetaryAmount roundForCash(MonetaryAmount amount){
-        // TODO implement this
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     /**
@@ -59,8 +57,7 @@ public class Rounding{
      * @see javax.money.MonetaryContext
      */
     public MonetaryAmount roundMathematical(MonetaryAmount amount){
-        // TODO implement this
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     /**
@@ -68,8 +65,7 @@ public class Rounding{
      * @return the array of rounding ids currently known.
      */
     public Collection<String> getKnownRoundings(){
-        // TODO implement this
-        return null;
+        throw new UnsupportedOperationException();
     }
 
     /**
@@ -79,7 +75,6 @@ public class Rounding{
      * @return the rounding name of your custom rounding.
      */
     public String getCustomRoundingName(){
-        // TODO implement this
-        return null;
+        throw new UnsupportedOperationException();
     }
 }

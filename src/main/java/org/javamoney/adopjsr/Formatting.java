@@ -78,6 +78,6 @@ public class Formatting{
      * @return the formatter ID
      */
     public String getRegisteredCustomFormat(){
-        return null;
+        throw new UnsupportedOperationException();
     }
 }
